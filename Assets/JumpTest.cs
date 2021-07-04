@@ -45,10 +45,5 @@ public class JumpTest : MonoBehaviour
             }
             jumpTimes--;
         }
-        /*
-        else if (Input.GetKeyDown(KeyCode.UpArrow) && jumpTimes == 0 && isGrounded) {
-            Debug.Log("1");
-            rb.velocity = new Vector2(rb.velocity.x, speed * 0.1f);
-        }*/
     }
 }
