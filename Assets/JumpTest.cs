@@ -17,7 +17,6 @@ public class JumpTest : MonoBehaviour
 
     public float speed;
 
-    // Start is called before the first frame update
     void Start()
     {
         jumpTimes = jumpTimesValue;
